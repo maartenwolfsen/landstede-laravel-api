@@ -21,3 +21,6 @@
     <li><code>php artisan migrate</code> Maak de database tables / fields aan</li>
     <li><code>php artisan db:seed</code> Vul de database met testgegevens</li>
 </ol>
+
+## Notities
+- Let op, deze installtie vraagt om PHP versie 8 
