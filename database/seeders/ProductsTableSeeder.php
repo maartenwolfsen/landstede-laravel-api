@@ -44,12 +44,15 @@ class ProductsTableSeeder extends Seeder
      */
     public function run()
     {
+        $categories = ["Heren", "Dames", "Accessoires"];
+
         for ($i = 0; $i < 50; $i++) {
             DB::table('products')->insert([
                 'title' => $this->faker->word(),
                 'body' => $this->faker->paragraph(3),
                 'image' => "https://images.pexels.com/photos/428340/pexels-photo-428340.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-                'price' => $this->faker->randomFloat(2, 1, 200)
+                'price' => $this->faker->randomFloat(2, 1, 200),
+                'category' => $categories[array_rand($categories)]
             ]);
         }
     }
