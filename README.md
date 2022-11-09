@@ -23,4 +23,4 @@
 </ol>
 
 ## Notities
-- Let op, deze installtie vraagt om PHP versie 8 
+- Let op, deze installatie vraagt om PHP versie 8 
