@@ -22,5 +22,8 @@
     <li><code>php artisan db:seed</code> Vul de database met testgegevens</li>
 </ol>
 
+## Applicatie starten
+<p>De applicatie kan worden gestart via: <code>php artisan serve</code></p>
+
 ## Notities
 - Let op, deze installatie vraagt om PHP versie 8 
